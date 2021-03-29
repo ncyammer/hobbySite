@@ -1,0 +1,79 @@
+.navLogo{
+    color: white !important;
+    border: 1px solid white;
+    padding: 0px 5px;
+}
+.customNav{
+    background-color: darkblue !important;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.navbar li a{
+    color: white !important;
+}
+
+footer{
+    margin-top: 40px;
+    height: 200px;
+    background-color: darkblue;
+    width: 100%;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    grid-template-areas: "malingList bottomNav";
+
+}
+.duobottomNav{
+    display: flex;
+    justify-content: baseline;
+}
+.mailingList{
+    grid-area: mailingList;
+    color: white !important;
+}
+.bottomNav{
+    grid-area: bottomNav;
+    padding-left: 40px;
+}
+.bottomNav a{
+    color: white;
+}
+
+.homeBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/isshuBanner.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeBanner h1, .homeBanner p{
+    color: white;
+}
+
+.bannerContent{
+    text-align: center;
+
+}
+.dropdown-menu{
+    background: darkblue !important;
+}
+.dropdown-divider{
+    color: white;
+}
+.dropdown-item{
+    border: 1px solid white;
+}
+.dropdown-item:hover{
+    color: #16181b !important;
+    text-decoration: none;;
+    background-color: white;
+}

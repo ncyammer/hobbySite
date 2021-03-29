@@ -15,62 +15,58 @@
       gtag('config', 'G-NK99PZM8LL');
     </script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">HokoDome</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <a class="navbar-brand navLogo" href="#">HokoDome</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="gettingStarted.html">Get Started</a>
+              <a class="nav-link" href="gettingStarted.html">Getting Started</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Useful Tips</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                Styles
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
-            </li>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+          </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
-      <div class="jumbotron">
-        <h1 class="display-4">HokoDome</h1>
-        <p class="lead">The definitive site for Kendo in the US</p>
-        <hr class="my-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a class="btn btn-primary btn-lg" href="gettingStarted.html" role="button">Get Started on your Kendo Journey</a>
+      <div class="jumbotron homeBanner">
+        <div class=bannerContent>
+          <h1 class="display-4">HokoDome</h1>
+          <p class="lead">The go-to site for Kendo and other Budo</p>
+          <br>
+          <a class="btn btn-primary btn-lg" href="gettingStarted.html" role="button">Begin Your Training</a>
+        </div>
       </div>
 
-      <div class="container-fluid content">
+      <div class="container content">
         <h2 class="sectionHeading">Recent Articles:</h2>
         <div class="row showsNear">
           <!-- Card 1 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-              <img src="" class="card-img-top" alt="image 1">
+              <img src="images/saiyou do.jpg" class="card-img-top" alt="image 1" height="215px">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -80,16 +76,7 @@
           </div>
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-              <img src="" class="card-img-top" alt="image 1">
-              <div class="card-body">
-                <h5 class="card-title">Lorem Ipsum</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Read</a>
-              </div>
-            </div>
-          </div><div class="cardContainer col-lg-4 col-md-4 col-sm-12">
-            <div class="card">
-              <img src="" class="card-img-top" alt="image 1">
+              <img src="images/clash.jpg" class="card-img-top" alt="image 1" height="215px">
               <div class="card-body">
                 <h5 class="card-title">Lorem Ipsum</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -97,6 +84,59 @@
               </div>
             </div>
           </div>
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <img src="images/nanryuu.JPG" class="card-img-top" alt="image 1" height="215px">
+              <div class="card-body">
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Read</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <footer>
+        <div class=footerContent>
+          <div class="mailingList">
+            <!-- <div><img src="icons/logo.png" alt="Logo"></div> -->
+            <h5><b>Join Our Mailing List</b></h5>
+            <p>Sign up to get the latest in hot deals and attactions</p>
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="email" placeholder="email address" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join Now</button>
+            </form>
+          </div>
+          <div class=duobottomNav>
+            <div class="bottomNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gettingStarted.html">Getting Started</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Useful Tips</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="bottomNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=#>日本語のサイト</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </footer>
 
 
 
