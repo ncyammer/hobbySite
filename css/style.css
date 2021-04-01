@@ -43,8 +43,12 @@ footer{
     color: white;
 }
 
+.navbar-light .navbar-toggler-icon{
+    background-image: url(../images/hamburger-menu@3x.png);
+}
+
 .homeBanner{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/isshuBanner.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/icchujiaibanner.gif);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -58,11 +62,31 @@ footer{
 .homeBanner h1, .homeBanner p{
     color: white;
 }
-
 .bannerContent{
     text-align: center;
-
 }
+.downArrow{
+    cursor: pointer;
+}
+.startedBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/shinaiWall.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.startedBanner h1, .startedBanner p{
+    color: white;
+}
+.tipsBanner{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/katana.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tipsBanner h1, .tipsBanner p{
+    color: white;
+}
+
 .dropdown-menu{
     background: darkblue !important;
 }
