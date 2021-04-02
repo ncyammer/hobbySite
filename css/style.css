@@ -48,7 +48,7 @@ footer{
 }
 
 .homeBanner{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/icchujiaibanner.gif);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(../images/icchujiaibanner.gif);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
